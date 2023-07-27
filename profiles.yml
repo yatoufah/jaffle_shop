@@ -31,4 +31,4 @@
       schema: dbt_test
       host: dbc-86f1e3fd-a558.cloud.databricks.com
       http_path: /sql/1.0/warehouses/a448cdf68a480e7b
-      token: dapi392c44e66214f92cc502edc0c0c8e4c1
+      token: "{{ env_var('DBT_ACCESS_TOKEN') }}"
